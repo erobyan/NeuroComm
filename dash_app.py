@@ -50,7 +50,8 @@ app.layout = dbc.Container([
                 value="Concentración (Beta)",
                 clearable=False,
                 searchable=False, 
-                style={"color": "#000"}
+                style={"color": "#000",
+                "cursor": "pointer"}
             )
         ], md=6)
     ], justify="center", className="mb-4"),
