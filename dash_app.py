@@ -49,6 +49,7 @@ app.layout = dbc.Container([
                 options=[{"label": k, "value": k} for k in states],
                 value="Concentración (Beta)",
                 clearable=False,
+                searchable=False, 
                 style={"color": "#000"}
             )
         ], md=6)
